@@ -64,4 +64,4 @@ And you can query your database by writing:
 $result = $db->query("YOUR_SQL_QUERY_HERE")->fetchArray();
 ```
 
-If you need to send data from your database to your client, you can *echo* the data you need to send, and the web-request will recieve that data as a string variable.
+If you need to send data from your database to your client, you can *echo* the data you need to send, and the web-request will return that data as a string variable.
